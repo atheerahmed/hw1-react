@@ -1,0 +1,21 @@
+
+body {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: antiquewhite;
+  
+  
+}
+.image{
+  height: 200px;
+  width: 200px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 300pt;
+}
